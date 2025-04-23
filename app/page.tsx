@@ -17,7 +17,7 @@ export default function Home() {
           <div className="relative w-[950px] h-[950px] transition-transform duration-700 hover:scale-105 ml-[32rem]">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 to-transparent rounded-3xl" />
             <Image
-              src="/ThiruDigitalResume/images/Thiru2.JPG"
+              src="/images/thiru2.jpg"
               alt="Thirumaran Deepak"
               fill
               className="object-contain drop-shadow-2xl"
