@@ -2,6 +2,7 @@ import React from 'react';
 import AnimatedSection from './components/AnimatedSection';
 import { BuildingOffice2Icon, AcademicCapIcon, UserGroupIcon, EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import imageLoader from '../image-loader';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
               fill
               className="object-contain drop-shadow-2xl"
               priority
+              loader={imageLoader}
             />
           </div>
           <div className="relative flex-1">
