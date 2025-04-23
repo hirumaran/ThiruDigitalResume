@@ -2,7 +2,6 @@ import React from 'react';
 import AnimatedSection from './components/AnimatedSection';
 import { BuildingOffice2Icon, AcademicCapIcon, UserGroupIcon, EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
-import imageLoader from '../image-loader';
 
 export default function Home() {
   return (
@@ -18,12 +17,11 @@ export default function Home() {
           <div className="relative w-[950px] h-[950px] transition-transform duration-700 hover:scale-105 ml-[32rem]">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 to-transparent rounded-3xl" />
             <Image
-              src="/images/Thiru2.JPG"
+              src="/ThiruDigitalResume/images/Thiru2.JPG"
               alt="Thirumaran Deepak"
               fill
               className="object-contain drop-shadow-2xl"
               priority
-              loader={imageLoader}
             />
           </div>
           <div className="relative flex-1">

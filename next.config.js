@@ -4,11 +4,8 @@ const nextConfig = {
   swcMinify: true,
   output: 'export',
   basePath: '/ThiruDigitalResume',
-  assetPrefix: '/ThiruDigitalResume/',
   images: {
     unoptimized: true,
-    loader: 'custom',
-    loaderFile: './image-loader.js',
   },
 }
 
