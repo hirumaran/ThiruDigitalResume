@@ -1,5 +1,5 @@
 
-import { Mail, Linkedin, Github, MessageSquare } from "lucide-react";
+import { Mail, Linkedin, Github, MessageSquare, MapPin, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -9,18 +9,18 @@ const Contact = () => {
           Let's Connect
         </h2>
         <p className="text-xl text-gray-300 mb-12 leading-relaxed">
-          Interested in collaborating on security research, discussing vulnerabilities, or exploring cybersecurity opportunities? I'd love to hear from you.
+          Interested in collaborating on tech projects, discussing internship opportunities, or connecting about healthcare innovation? I'd love to hear from you.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300">
-            <h3 className="text-xl font-bold mb-4">Professional Collaboration</h3>
+            <h3 className="text-xl font-bold mb-4">Professional Opportunities</h3>
             <p className="text-gray-300 mb-6">
-              Open to security research collaborations, vulnerability disclosure discussions, and cybersecurity consulting opportunities.
+              Open to internship opportunities, tech collaborations, and mentorship in software development and healthcare technology.
             </p>
             <div className="flex justify-center space-x-4">
               <a 
-                href="https://www.linkedin.com/in/thirumaran-deepak-0772722b2/" 
+                href="https://www.linkedin.com/in/thirumaran-deepak/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors"
@@ -32,31 +32,57 @@ const Contact = () => {
           </div>
 
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300">
-            <h3 className="text-xl font-bold mb-4">Research & Community</h3>
+            <h3 className="text-xl font-bold mb-4">Projects & Learning</h3>
             <p className="text-gray-300 mb-6">
-              Passionate about sharing knowledge, contributing to the cybersecurity community, and advancing security research.
+              Passionate about sharing knowledge, learning from others, and contributing to open source projects in the tech community.
             </p>
             <div className="flex justify-center space-x-4">
-              <button className="flex items-center space-x-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-full transition-colors">
-                <MessageSquare className="w-4 h-4" />
-                <span>Get in Touch</span>
-              </button>
+              <a 
+                href="https://github.com/hirumaran"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-full transition-colors"
+              >
+                <Github className="w-4 h-4" />
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 mb-8">
+          <h3 className="text-xl font-bold mb-6">Contact Information</h3>
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div className="flex flex-col items-center space-y-2">
+              <MapPin className="w-6 h-6 text-gray-300" />
+              <p className="text-gray-300">Bellevue, WA</p>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <Phone className="w-6 h-6 text-gray-300" />
+              <p className="text-gray-300">(425) 591-1475</p>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <Mail className="w-6 h-6 text-gray-300" />
+              <div className="text-gray-300">
+                <p className="text-sm">s-deepakt@bsd405.org</p>
+                <p className="text-sm">thirumaran.dk@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8">
           <p className="text-gray-400 mb-4">
-            "Security is not a product, but a process." - Bruce Schneier
+            "The best way to predict the future is to create it." - Peter Drucker
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="mailto:contact@thirumaran.dev" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:thirumaran.dk@gmail.com" className="text-gray-400 hover:text-white transition-colors">
               <Mail className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/thirumaran-deepak-0772722b2/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/thirumaran-deepak/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/hirumaran" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Github className="w-6 h-6" />
             </a>
           </div>

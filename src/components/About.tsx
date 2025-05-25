@@ -1,12 +1,12 @@
 
-import { Shield, Search, Award, Users } from "lucide-react";
+import { GraduationCap, Heart, Code, Users } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Shield, label: "CVEs Discovered", value: "15+" },
-    { icon: Search, label: "Years Experience", value: "3+" },
-    { icon: Award, label: "Security Research", value: "Active" },
-    { icon: Users, label: "Community Impact", value: "High" }
+    { icon: Code, label: "Programming Languages", value: "7+" },
+    { icon: GraduationCap, label: "GPA (Running Start)", value: "4.0" },
+    { icon: Heart, label: "Healthcare Tech Focus", value: "Active" },
+    { icon: Users, label: "Leadership Roles", value: "3" }
   ];
 
   return (
@@ -17,35 +17,35 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I'm a dedicated cybersecurity professional specializing in vulnerability research, 
-            penetration testing, and security assessments. My passion lies in discovering and 
-            responsibly disclosing security vulnerabilities to help organizations strengthen their defenses.
+            I'm a passionate high school junior from Bellevue, WA, combining my love for technology with 
+            healthcare innovation. Currently pursuing computer science through Running Start at Bellevue College 
+            while gaining real-world experience through internships at leading tech companies.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-gray-900">My Expertise</h3>
+            <h3 className="text-2xl font-bold text-gray-900">My Focus Areas</h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-gray-900 rounded-full mt-2"></div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Vulnerability Research</h4>
-                  <p className="text-gray-600">Discovering and analyzing security flaws in software and systems</p>
+                  <h4 className="font-semibold text-gray-900">Healthcare Technology</h4>
+                  <p className="text-gray-600">Developing solutions that improve patient care and clinical workflows</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-gray-900 rounded-full mt-2"></div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Penetration Testing</h4>
-                  <p className="text-gray-600">Comprehensive security assessments and ethical hacking</p>
+                  <h4 className="font-semibold text-gray-900">Full-Stack Development</h4>
+                  <p className="text-gray-600">Building scalable web applications with modern technologies</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-gray-900 rounded-full mt-2"></div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Security Analysis</h4>
-                  <p className="text-gray-600">Deep dive analysis of security architectures and implementations</p>
+                  <h4 className="font-semibold text-gray-900">Leadership & Innovation</h4>
+                  <p className="text-gray-600">Leading clubs and projects while driving technological innovation</p>
                 </div>
               </div>
             </div>

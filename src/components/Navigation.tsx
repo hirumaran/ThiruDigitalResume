@@ -31,7 +31,7 @@ const Navigation = () => {
             TD
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            {["About", "CVEs", "Experience", "Contact"].map((item) => (
+            {["About", "Projects", "Experience", "Contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}

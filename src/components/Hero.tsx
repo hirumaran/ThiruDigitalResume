@@ -21,10 +21,11 @@ const Hero = () => {
             Thirumaran Deepak
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4 font-medium">
-            Cybersecurity Researcher & CVE Hunter
+            High School Junior | Software Developer | Healthcare Tech Innovator
           </p>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            Passionate about discovering vulnerabilities and making the digital world safer through responsible disclosure and security research.
+            Passionate about bridging healthcare and technology through innovative software solutions. 
+            Currently interning at Google while pursuing computer science education.
           </p>
         </div>
         
@@ -36,7 +37,7 @@ const Hero = () => {
             View My Work
           </button>
           <a 
-            href="https://www.linkedin.com/in/thirumaran-deepak-0772722b2/" 
+            href="https://www.linkedin.com/in/thirumaran-deepak/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-full font-semibold hover:border-gray-400 hover:text-gray-900 transition-all duration-300 hover:shadow-lg transform hover:scale-105"
